@@ -1,0 +1,1 @@
+ /home/aziz/Documents/flutter\ projects/pfe/befine/.dart_tool/flutter_build/71ee4185fde46f37407484e482538a8f/native_assets.yaml: 
