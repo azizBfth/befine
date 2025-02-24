@@ -1,3 +1,5 @@
+
+import 'package:befine/pages/DashboardScreen.dart';
 import 'package:befine/pages/HealthScreen.dart';
 import 'package:befine/pages/HomeScreen.dart';
 import 'package:befine/pages/ProfileScreen.dart';
@@ -33,6 +35,7 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _pages = [
     const HomeScreen(),
     const HealthScreen(),
+    const DashbordScreen(),
     const Profilescreen(),
   ];
 
@@ -52,15 +55,16 @@ class _MainScreenState extends State<MainScreen> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
+        type: BottomNavigationBarType.fixed, // Pour éviter l'animation si + de 3 items
+        selectedItemColor: Colors.blue, // Couleur de l'élément sélectionné
+        unselectedItemColor: Colors.grey, // Couleur des éléments non sélectionnés
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.health_and_safety), label: "Health"),
-          
+          BottomNavigationBarItem(icon: Icon(Icons.dashboard), label: "Dashboard"),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         ],
       ),
     );
   }
 }
-
-
