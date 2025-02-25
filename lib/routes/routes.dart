@@ -1,4 +1,3 @@
-import 'package:befine/models/device.dart';
 import 'package:befine/pages/DeviceScreen.dart';
 import 'package:befine/pages/HealthScreen.dart';
 import 'package:befine/pages/HomeScreen.dart';

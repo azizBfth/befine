@@ -22,11 +22,9 @@ class _LoadingSpinState extends State<LoadingSpin> {
   Future getSharedPrefrences() async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
 
-      try {
-          Navigator.of(context).pushNamed('/main');
-      } catch (error) {
-      
-  
+    try {
+      Navigator.of(context).pushNamed('/main');
+    } catch (error) {
       print("error");
     }
 
