@@ -7,6 +7,8 @@
 /home/aziz/Documents/flutter projects/pfe/befine/build/linux/x64/debug/bundle/data/flutter_assets/assets/icon/home.png
 /home/aziz/Documents/flutter projects/pfe/befine/build/linux/x64/debug/bundle/data/flutter_assets/assets/icon/user.png
 /home/aziz/Documents/flutter projects/pfe/befine/build/linux/x64/debug/bundle/data/flutter_assets/assets/icon/heart.png
+/home/aziz/Documents/flutter projects/pfe/befine/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/profile.png
+/home/aziz/Documents/flutter projects/pfe/befine/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/weather_bg.jpg
 /home/aziz/Documents/flutter projects/pfe/befine/build/linux/x64/debug/bundle/data/flutter_assets/version.json
 /home/aziz/Documents/flutter projects/pfe/befine/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 /home/aziz/Documents/flutter projects/pfe/befine/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag

@@ -40,13 +40,13 @@ class _MainScreenState extends State<MainScreen> {
           borderRadius: BorderRadius.circular(30), // Rounded corners
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.95), // Slight transparency for modern look
+              color: Colors.white.withOpacity(0.85), // More transparent background
               borderRadius: BorderRadius.circular(30),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.15), // Soft shadow
-                  blurRadius: 12,
-                  spreadRadius: 4,
+                  color: Colors.black.withOpacity(0.15), // Subtle shadow
+                  blurRadius: 8, // Soft blur radius
+                  spreadRadius: 3, // Slight spread to focus the bar
                 ),
               ],
             ),
@@ -54,10 +54,10 @@ class _MainScreenState extends State<MainScreen> {
               currentIndex: _selectedIndex,
               onTap: _onItemTapped,
               type: BottomNavigationBarType.fixed,
-              selectedItemColor: const Color.fromARGB(255, 1, 136, 247), // Selected item color
-              unselectedItemColor: Colors.grey.withOpacity(0.7), // Unselected item color with opacity
+              selectedItemColor: const Color.fromARGB(255, 1, 136, 247), // Bright color for selected item
+              unselectedItemColor: Colors.grey.shade600, // Lighter color for unselected items
               backgroundColor: Colors.transparent, // Transparent background for the BottomNavigationBar itself
-              elevation: 0, // No elevation for modern look
+              elevation: 0, // No elevation for a clean look
               items: const [
                 BottomNavigationBarItem(
                   icon: Icon(Icons.home), 
